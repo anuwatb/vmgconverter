@@ -1,0 +1,7 @@
+body {
+    max-width: 800px;
+}
+
+#preview {
+    max-height: 200px;
+}

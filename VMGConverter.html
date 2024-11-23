@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VMG to JSON</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+        <link href="./style.css" rel="stylesheet" />
+    </head>
+    <body class="m-auto bg-secondary">
+        <img src="conversation.flaticon.png" class="position-absolute top-0 start-50 translate-middle-x" />
+        <h1 class="text-center text-light mt-5 pt-3 pb-3 rounded-4 position-relative bg-dark bg-opacity-75">VMG to JSON</h1>
+        <div class="border border-3 rounded-4 position-relative">
+            <div class="d-flex py-3 mx-5">
+                <input type="file" multiple id="vmgfiles-input" class="form-control" />
+                <button id="clear-btn" class="btn btn-secondary">Clear</button>
+            </div>
+            <div id="preview" class="overflow-scroll border rounded-4 p-3 mx-5 mb-3 bg-white">
+                Preview of the JSON file will be here.
+            </div>
+            <div class="d-flex">
+                <button id="download-btn" class="btn btn-primary form-control mx-5 mb-3" disabled>Download</button>
+            </div>
+        </div>
+        <footer class="p-3 rounded-4 position-relative bg-dark bg-opacity-75">
+            <a href="https://www.flaticon.com/free-icons/sms" title="sms icons" class="link-light">Sms icons created by Creative Stall Premium - Flaticon</a>
+        </footer>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
